@@ -1,0 +1,22 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>soundofarchitectures — A Living Typography Museum</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="intro.css"><link rel="stylesheet" href="journey-end.css"><link rel="stylesheet" href="architecture-card.css"></head><body class="intro-open">
+<section id="intro" role="dialog" aria-modal="true" aria-labelledby="intro-title">
+ <div class="intro-top"><span class="intro-brand">soundofarchitectures</span><button id="intro-language" type="button" aria-label="Switch language">EN / 中文</button></div>
+ <div class="intro-frame" aria-hidden="true"><span>FIG. 001 — FORM / LANGUAGE</span><span>AN INTERACTIVE STUDY</span></div>
+ <div class="intro-content">
+  <div id="intro-kicker">A LIVING TYPOGRAPHY MUSEUM</div>
+  <h1 id="intro-title">Every building<br>is a <em>poem.</em></h1>
+  <p id="intro-description">Six civilizations, suspended between<br>architecture and language.</p>
+  <button id="intro-start" type="button" disabled><span id="intro-start-label">START</span><span aria-hidden="true">↗</span></button>
+  <span id="intro-status" role="status">PREPARING THE EXHIBITION</span>
+ </div>
+ <div class="intro-drawing" aria-hidden="true"><svg viewBox="0 0 600 210" fill="none"><path d="M55 178H545M74 168H526M110 154H490M141 145V110L300 30L459 110V145M123 111L300 20L477 111M145 111H455M160 119H440M166 145V123M194 145V123M222 145V123M250 145V123M278 145V123M306 145V123M334 145V123M362 145V123M390 145V123M418 145V123M300 8V194M85 198H515"/><path stroke-dasharray="2 6" d="M96 20H504M96 20V178M504 20V178M30 110H570"/><circle cx="300" cy="20" r="3"/><circle cx="96" cy="178" r="3"/><circle cx="504" cy="178" r="3"/></svg></div>
+ <div class="intro-bottom"><span id="intro-volume">VOL. 001 / SIX CIVILIZATIONS</span><span id="intro-instruction">MOVE TO TRACE · CLICK TO ENTER</span><span>© soundofarchitectures</span></div>
+ <canvas id="intro-crosshair" aria-hidden="true"></canvas>
+</section>
+
+<div id="museum" inert>
+<header><a class="brand" href="#">soundofarchitectures<span>AN EXPLORATION IN FORM & LANGUAGE</span></a><nav><button id="return-start" type="button" aria-label="Return to start">← RETURN</button><button id="about">ABOUT</button><button id="index">INDEX <sup>06</sup></button><button id="sound">SOUND OFF</button><button id="language">EN / 中文</button></nav></header>
+<main><section id="editorial" aria-live="polite"><div class="eyebrow"><span id="number">01 / 06</span><span class="dash"></span><span id="country">CHINA</span></div><h1 id="title"></h1><p id="description"></p><div class="tag" id="tag"></div></section><div id="stage" aria-label="Interactive architectural sculpture; drag horizontally to explore"><canvas id="canvas"></canvas><div class="exhibit"><span id="exhibitName"></span><span id="material"></span></div><div id="cursor">DRAG ↔</div></div><div class="edition">A LIVING<br>TYPOGRAPHY MUSEUM <span>VOL. 001 — SIX CIVILIZATIONS</span></div></main>
+<footer><div class="folio"><span id="folio">01</span><span class="slash">/</span>06</div><div id="progress"></div><div class="hint">↔ &nbsp; <span id="hint">DRAG TO EXPLORE</span></div><div class="arrows"><button id="prev" aria-label="Previous scene">← <span>PREVIOUS</span></button><button id="next" aria-label="Next scene"><span>NEXT</span> →</button></div></footer>
+<dialog id="overlay"><button id="close" aria-label="Close">CLOSE &nbsp; ×</button><div id="overlayContent"></div></dialog></div><script type="module" src="opening-film.js"></script><script type="module" src="star-border.js"></script><script type="module" src="intro.js"></script><script type="module" src="app.js"></script></body></html>
+

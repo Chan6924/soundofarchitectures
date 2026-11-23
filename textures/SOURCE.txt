@@ -1,0 +1,2 @@
+Earth texture: https://threejs.org/examples/textures/planets/earth_atmos_2048.jpg
+Downloaded from the Three.js examples asset collection.
